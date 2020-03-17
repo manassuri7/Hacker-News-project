@@ -1,0 +1,25 @@
+{
+  "name": "react-hn",
+  "version": "0.1.0",
+  "homepage": "https://manassuri7.github.io/Hacker-News-project",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.8.4",
+    "react-test-renderer": "^15.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}
